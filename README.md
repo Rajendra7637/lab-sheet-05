@@ -12,7 +12,6 @@ I used Q-Learning on FrozenLake and on my own Grid World, and a Deep Q-Network
 | File / Folder | What it does |
 |---|---|
 | `lab_sheet_05_all_programs.py` | All 35 programs in one file. Each program is its own cell. |
-
 | `scripts/build_report.py` | Builds the Word report . |
 | `report/` | The report is saved here as `Lab_Sheet_05_Report.docx`. |
 | `models/` | The saved Q-table and DQN model (made by Programs 9 and 29). |
