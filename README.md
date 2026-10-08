@@ -1,9 +1,4 @@
-# Lab Sheet-05: Reinforcement Learning
 
-**Name:** <your name>
-**Roll No:** <your roll number>
-**Course:** MCA, 3rd Semester (2026-2027)
-**University:** COER University, Roorkee
 
 ## About this project
 
@@ -17,8 +12,8 @@ I used Q-Learning on FrozenLake and on my own Grid World, and a Deep Q-Network
 | File / Folder | What it does |
 |---|---|
 | `lab_sheet_05_all_programs.py` | All 35 programs in one file. Each program is its own cell. |
-| `notebooks/lab_sheet_05.ipynb` | The same programs as a Jupyter notebook. |
-| `scripts/build_report.py` | Builds the Word report from my own run. |
+
+| `scripts/build_report.py` | Builds the Word report . |
 | `report/` | The report is saved here as `Lab_Sheet_05_Report.docx`. |
 | `models/` | The saved Q-table and DQN model (made by Programs 9 and 29). |
 | `outputs/` | The graphs and the results summary (made when the programs run). |
@@ -94,6 +89,4 @@ Python version: 3.11 or above.
   from run to run. DQN especially can go up and down during training.
 - If DQN does not reach a good score, increase `DQN_EPISODES` (for example to 500).
 
-## Conclusion
 
-<Write 2-3 lines in your own words about what you learned.>
