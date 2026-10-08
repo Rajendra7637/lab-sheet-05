@@ -1,0 +1,127 @@
+{
+  "frozenlake_random_success_rate": 0.02,
+  "frozenlake": {
+    "train_time_sec": 18.16,
+    "eval_success_rate": 0.73,
+    "eval_avg_steps": 44.72,
+    "episodes": 10000,
+    "converge_episode": 6255
+  },
+  "learning_rate_study": [
+    {
+      "Learning rate": 0.01,
+      "Training success rate": 0.028,
+      "Greedy success rate": 0.048
+    },
+    {
+      "Learning rate": 0.1,
+      "Training success rate": 0.676,
+      "Greedy success rate": 0.72
+    },
+    {
+      "Learning rate": 0.5,
+      "Training success rate": 0.636,
+      "Greedy success rate": 0.732
+    },
+    {
+      "Learning rate": 0.9,
+      "Training success rate": 0.494,
+      "Greedy success rate": 0.0
+    }
+  ],
+  "gamma_study": [
+    {
+      "Gamma": 0.5,
+      "Training success rate": 0.072,
+      "Greedy success rate": 0.104
+    },
+    {
+      "Gamma": 0.9,
+      "Training success rate": 0.502,
+      "Greedy success rate": 0.524
+    },
+    {
+      "Gamma": 0.99,
+      "Training success rate": 0.676,
+      "Greedy success rate": 0.72
+    },
+    {
+      "Gamma": 0.999,
+      "Training success rate": 0.61,
+      "Greedy success rate": 0.72
+    }
+  ],
+  "epsilon_study": [
+    {
+      "Setting": "epsilon = 0.0 (only exploit)",
+      "Training success rate": 0.024,
+      "Greedy success rate": 0.028
+    },
+    {
+      "Setting": "epsilon = 0.1",
+      "Training success rate": 0.396,
+      "Greedy success rate": 0.72
+    },
+    {
+      "Setting": "epsilon = 0.5",
+      "Training success rate": 0.092,
+      "Greedy success rate": 0.732
+    },
+    {
+      "Setting": "epsilon = 1.0 (only explore)",
+      "Training success rate": 0.01,
+      "Greedy success rate": 0.72
+    },
+    {
+      "Setting": "decaying 1.0 -> 0.01",
+      "Training success rate": 0.676,
+      "Greedy success rate": 0.72
+    }
+  ],
+  "gridworld": {
+    "train_time_sec": 0.96,
+    "eval_success_rate": 1.0,
+    "eval_avg_steps": 8.0,
+    "episodes": 2000,
+    "converge_episode": 1201
+  },
+  "dqn": {
+    "train_time_sec": 259.04,
+    "episodes": 300,
+    "eval_mean_reward": 198.55,
+    "last_20_training_mean": 434.25,
+    "converge_episode_195": 74
+  },
+  "cartpole_random_mean": 23.03,
+  "tabular_cartpole": {
+    "train_time_sec": 96.2,
+    "episodes": 3000,
+    "last_100_training_mean": 261.35,
+    "converge_episode_195": 227
+  },
+  "replay_effect": {
+    "with_replay_last20": 109.1,
+    "without_replay_last20": 9.5
+  },
+  "target_effect": {
+    "with_target_last20": 109.1,
+    "without_target_last20": 9.8
+  },
+  "dqn_learning_rate_study": [
+    {
+      "Learning rate": 0.0001,
+      "Mean reward (last 20)": 9.9,
+      "Best episode": 65.0
+    },
+    {
+      "Learning rate": 0.001,
+      "Mean reward (last 20)": 109.1,
+      "Best episode": 254.0
+    },
+    {
+      "Learning rate": 0.01,
+      "Mean reward (last 20)": 55.8,
+      "Best episode": 281.0
+    }
+  ]
+}
