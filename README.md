@@ -11,7 +11,6 @@ I used Q-Learning on FrozenLake and on my own Grid World, and a Deep Q-Network
 
 | File / Folder | What it does |
 |---|---|
-
 | `scripts/build_report.py` | Builds the Word report . |
 | `report/` | The report is saved |
 | `models/` | The saved Q-table and DQN model |
